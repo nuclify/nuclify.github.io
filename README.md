@@ -1,58 +1,49 @@
-# nuclify.github.io
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Nuclify - Your YouTube Channel</title>
+    <title>My GitHub Project</title>
     <style>
         body {
-            background-color: #607D8B; /* Blue Grey */
-            color: #FFFFFF; /* White text on the background */
+            background-color: #37474F; /* Dark Blue Grey */
+            color: #B0BEC5; /* Light Blue Grey text */
             font-family: Arial, sans-serif;
-        }
-        header {
-            background-color: #37474F; /* Darker Blue Grey for the header */
-            padding: 20px;
-        }
-        header h1 {
             margin: 0;
-        }
-        nav ul {
-            list-style-type: none;
             padding: 0;
         }
-        nav li {
-            display: inline;
-            margin-right: 20px;
-        }
-        nav a {
-            text-decoration: none;
-            color: #B0BEC5; /* Light Blue Grey for links */
+        header {
+            background-color: #263238; /* Slightly Darker Blue Grey for header */
+            color: #90A4AE; /* Light Blue Grey text for header */
+            padding: 20px;
+            text-align: center;
         }
         main {
             padding: 20px;
+        }
+        a {
+            color: #90A4AE; /* Light Blue Grey links */
+            text-decoration: none;
+        }
+        a:hover {
+            color: #FFFFFF; /* White links on hover */
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to Nuclify</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Videos</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+        <h1>Welcome to My GitHub Project</h1>
     </header>
     <main>
         <section>
-            <h2>About Nuclify</h2>
-            <p>hi! welcome to my channel, nuclify. my videos are just for me, you can subscribe if you want!</p>
+            <h2>About This Project</h2>
+            <p>This is a simple GitHub project with a dark blue-grey color palette.</p>
         </section>
         <section>
-            <h2>Latest Videos</h2>
-            <p>Embed your YouTube video here or provide links to your latest content.</p>
+            <h2>Links</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Documentation</a></li>
+                <li><a href="#">GitHub Repository</a></li>
+            </ul>
         </section>
     </main>
 </body>
